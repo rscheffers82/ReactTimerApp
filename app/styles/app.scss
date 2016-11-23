@@ -1,7 +1,2 @@
-p {
-  color: #777;
-}
-
-.active-link {
-  font-style: oblique;
-}
+@import 'base/variables';
+@import 'components/nav';
