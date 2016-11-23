@@ -13,6 +13,9 @@ require('style!css!sass!applicationStyles')
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
+      <Route path="/timer"/>
+      <Route path="/countdown"/>
+      <IndexRoute/>
     </Route>
   </Router>,
   document.getElementById('app')
