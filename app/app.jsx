@@ -14,10 +14,10 @@ $(document).foundation();
 require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
-  <Router history={hashHistory}>                          // open a router component
-    <Route path="/" component={Main}>                     // Set the main route to /
-      <Route path="countdown" component={Countdown}/>     // Define any sub-routes after /
-      <IndexRoute component={Timer}/>                     // Set the default to fall back to (main page to display)
+  <Router history={hashHistory}>
+    <Route path="/" component={Main}>
+      <Route path="countdown" component={Countdown}/>
+      <IndexRoute component={Timer}/>
     </Route>
   </Router>,
   document.getElementById('app')
