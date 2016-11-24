@@ -22,7 +22,7 @@ describe('Clock' , () => {
     });
   });
 
-  describe('fotmatSeconds', () => {
+  describe('formatSeconds', () => {
     it('should format seconds', () => {
       var clock = TestUtils.renderIntoDocument(<Clock/>);
       var seconds = 615;
