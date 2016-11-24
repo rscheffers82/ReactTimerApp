@@ -5,8 +5,8 @@ var Main = (props) => {
   return (
     <div>
       <Nav/>
-      <div>
-        <div>
+      <div className="row">
+        <div className="column small-centered medium-6 large-4">
           {props.children}
         </div>
       </div>
