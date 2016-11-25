@@ -19,7 +19,7 @@ var Nav = (props) => {
           <div className="top-bar-right">
             <ul className="menu">
               <li className="menu-text">
-                Created by <a href="#" target="_blank">Roy Scheffers</a>
+                Created by <a href="http://royscheffers.com" target="_blank">Roy Scheffers</a>
               </li>
             </ul>
           </div>
